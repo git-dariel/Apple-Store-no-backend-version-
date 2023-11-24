@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+require("dotenv").config();
 const getProducts = require("./routers/Connection/apiProducts.js");
 
 const app = express();
