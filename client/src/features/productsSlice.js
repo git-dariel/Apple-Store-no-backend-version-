@@ -10,7 +10,7 @@ export const productsFetch = createAsyncThunk(
   "products/productsFetch",
   async () => {
     try {
-      const response = await axios.get("https://apple-server-omega.vercel.app/products");
+      const response = await axios.get("https://apple-store-no-backend-version.vercel.app/products");
       return response.data;
     } catch (error) {
       console.log(error);
